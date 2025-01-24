@@ -1,6 +1,5 @@
 # Polkadot AI Agent Proposal  
-**Focus: DeFi Analytics & User Support**  
-
+**Focus: Scraping Developer Resources & Providing Latest Tech Updates**  
 ---
 
 ## **Background**  
@@ -10,14 +9,18 @@
 **Past Experiences:**  
 - Former DevRel @Virtuals
 
-
-**Motivation:**  
-The Polkadot ecosystem is rapidly growing, with numerous DeFi protocols being built on its parachains. However, users and developers often face challenges in understanding DeFi mechanics, tracking performance, and optimizing their strategies. This AI agent will serve as a DeFi-focused assistant, providing real-time analytics, user support, and educational resources to empower users and developers in the Polkadot DeFi ecosystem.  
+## **Motivation**  
+The Polkadot ecosystem is rapidly expanding, with new parachains, SDK updates, and governance proposals being introduced frequently. However, developers often struggle to keep up with the latest tech developments and find relevant resources. This AI-powered tool will serve as a **developer-focused assistant**, providing **scraped materials** and **real-time updates** to empower developers in the Polkadot ecosystem.  
 
 ---
 
 ## **Project Overview**  
-The **OpenGuild AI Agent** is an AI-driven assistant designed to provide DeFi analytics, user support, and educational resources for the Polkadot ecosystem. This document outlines a four-week development schedule to deliver a fully functional AI agent tailored to DeFi use cases.  
+The **Polkadot Developer Materials Scraper & Tech Updates Tool** is an AI-driven assistant designed to:  
+1. **Scrape developer materials** (docs, tutorials, GitHub repos, etc.) from the Polkadot ecosystem.  
+2. **Provide real-time updates** on the latest tech developments (e.g., new parachains, SDK updates, governance proposals).  
+3. **Deliver curated content** to developers through a **CLI tool**, **Telegram bot**, and **Discord bot**.  
+
+This document outlines a **four-week development schedule** to deliver a fully functional tool tailored to developer needs.  
 
 ---
 
@@ -26,7 +29,7 @@ The **OpenGuild AI Agent** is an AI-driven assistant designed to provide DeFi an
 ### **Week 1: Project Setup & Core Infrastructure**  
 **Days 1-3: Initial Setup**  
 - **Repository Initialization**  
-  - Create GitHub repository "polkadot-defi-ai-agent"  
+  - Create GitHub repository "polkadot-dev-scraper"  
   - Set up Python project structure (focus on AI/ML libraries)  
   - Initialize pip package and dependencies  
   - Configure pre-commit hooks for code quality  
@@ -39,10 +42,10 @@ The **OpenGuild AI Agent** is an AI-driven assistant designed to provide DeFi an
 
 **Days 4-7: Core Systems**  
 - **Data Pipeline Foundation**  
-  - Implement data ingestion from Polkadot DeFi protocols (e.g., Acala, Moonbeam)  
+  - Implement data ingestion from Polkadot developer resources (docs, GitHub, blogs)  
   - Set up data storage and indexing system  
   - Create data preprocessing pipeline  
-  - Build analytics query system  
+  - Build search query system  
 
 - **Platform Integration Basics**  
   - Create CLI tool skeleton  
@@ -52,61 +55,57 @@ The **OpenGuild AI Agent** is an AI-driven assistant designed to provide DeFi an
 
 ---
 
-### **Week 2: DeFi Analytics & User Support**  
-**Days 8-10: DeFi Analytics**  
-- **Protocol Integration**  
-  - Integrate data from Acala, Moonbeam, and other DeFi parachains  
-  - Add liquidity pool tracking  
-  - Implement yield farming analytics  
-  - Build staking reward tracking  
+### **Week 2: Scraping Developer Materials & Tech Updates**  
+**Days 8-10: Scraping Developer Materials**  
+- **Resource Integration**  
+  - Scrape official Polkadot documentation  
+  - Index GitHub repositories and community tutorials  
+  - Categorize content for easy retrieval  
 
-- **User Insights**  
-  - Create portfolio tracking tools  
-  - Add risk assessment metrics  
-  - Implement gas fee optimization  
-  - Build historical performance analysis  
+- **Content Management**  
+  - Create a structured knowledge base  
+  - Implement version control for scraped materials  
+  - Build search optimization for developer queries  
 
-**Days 11-14: User Support**  
-- **Educational Resources**  
-  - Create DeFi glossary and tutorials  
-  - Add interactive guides for staking and yield farming  
-  - Build FAQ system for common DeFi questions  
-  - Implement context-aware responses  
+**Days 11-14: Tech Updates System**  
+- **Real-Time Updates**  
+  - Integrate Polkadot blog RSS feeds  
+  - Monitor social media for tech announcements  
+  - Track governance proposals and parachain updates  
 
-- **Troubleshooting Tools**  
-  - Add transaction error analysis  
-  - Implement wallet integration support  
-  - Create debugging utilities  
-  - Build alerting system for failed transactions  
+- **Content Processing**  
+  - Build content categorization  
+  - Implement relevance filtering  
+  - Create summary generation for updates  
+  - Add keyword extraction for search optimization  
 
 ---
 
 ### **Week 3: AI Features & Automation**  
 **Days 15-17: AI-Powered Insights**  
-- **Predictive Analytics**  
-  - Implement yield farming strategy optimization  
-  - Add liquidity pool performance forecasting  
-  - Build risk assessment simulations  
-  - Create token price prediction tools  
-
 - **Natural Language Processing (NLP)**  
-  - Implement query understanding for DeFi terms  
+  - Implement query understanding for developer terms  
   - Add context-aware responses  
   - Build documentation search  
-  - Create code explanation tools for smart contracts  
+  - Create code explanation tools  
+
+- **Predictive Analytics**  
+  - Analyze trends in Polkadot tech updates  
+  - Provide insights on upcoming parachains and SDK releases  
+  - Build risk assessment for governance proposals  
 
 **Days 18-21: Automation**  
 - **Task Automation**  
-  - Implement automated portfolio rebalancing suggestions  
-  - Add yield farming strategy alerts  
+  - Implement automated content updates  
+  - Add alerts for new tech developments  
   - Build governance proposal tracking  
-  - Create transaction fee optimization tools  
+  - Create notification system for developers  
 
-- **Integration with DeFi Protocols**  
-  - Add wallet integration support  
-  - Implement API for third-party DeFi tools  
-  - Build webhook support for notifications  
-  - Create IDE plugin for DeFi developers  
+- **Integration with Developer Tools**  
+  - Add IDE plugin support  
+  - Implement CLI tool enhancements  
+  - Build API for third-party integrations  
+  - Create webhook support for notifications  
 
 ---
 
@@ -132,9 +131,9 @@ The **OpenGuild AI Agent** is an AI-driven assistant designed to provide DeFi an
   - Build troubleshooting guide  
 
 - **User Guides**  
-  - Write DeFi onboarding guide  
-  - Create yield farming strategy guide  
-  - Document analytics use cases  
+  - Write developer onboarding guide  
+  - Create tech updates usage guide  
+  - Document scraping and search use cases  
   - Add FAQ section  
 
 ---
@@ -155,26 +154,28 @@ The **OpenGuild AI Agent** is an AI-driven assistant designed to provide DeFi an
 ---
 
 ## **Deliverables**  
-1. **Functional DeFi AI Agent** integrated with CLI and web dashboard  
-2. **Comprehensive DeFi analytics tools** covering liquidity pools, yield farming, and staking  
-3. **Educational resources** for DeFi users and developers  
-4. **Automated insights and alerts** for DeFi strategies  
-5. **Complete technical documentation** and user guides  
-6. **Open-source repository** with full commit history  
+1. **Functional Developer Scraper & Tech Updates Tool** integrated with CLI and web dashboard  
+2. **Comprehensive Knowledge Base** covering Polkadot developer materials  
+3. **Real-Time Tech Updates** on parachains, SDKs, and governance  
+4. **AI-Powered Search & Recommendations** for developers  
+5. **Complete Technical Documentation** and user guides  
+6. **Open-Source Repository** with full commit history  
 
 ---
 
 ## **Success Metrics**  
-- **Accuracy of DeFi insights:** > 90%  
-- **Average response time for user queries:** < 2 seconds  
-- **User satisfaction rating:** > 4.5/5  
-- **System uptime:** > 99.9%  
-- **Number of active users:** > 1,000 within the first 3 months  
+- **Accuracy of Search Results:** > 90%  
+- **Average Response Time for Queries:** < 2 seconds  
+- **User Satisfaction Rating:** > 4.5/5  
+- **System Uptime:** > 99.9%  
+- **Number of Active Users:** > 1,000 within the first 3 months  
 
 ---
 
-This proposal focuses on empowering DeFi users and developers within the Polkadot ecosystem, providing them with the tools and insights needed to succeed in the rapidly evolving DeFi landscape.  
+This proposal focuses on empowering developers within the Polkadot ecosystem by providing them with the tools and insights needed to stay updated and productive.  
 
 --- 
+
+**Repository:** [Polkadot Developer Scraper & Tech Updates](https://github.com/armlynobinguar/Polkadot-AI--Agent-Proposal)  
 
 **Repository:** [Polkadot AI Agent Proposal](https://github.com/armlynobinguar/Polkadot-AI--Agent-Proposal)  
